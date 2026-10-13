@@ -1,0 +1,1733 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js" xmlns:fb="http://ogp.me/ns/fb#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/"> <!--<![endif]-->
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# challengepost: http://ogp.me/ns/fb/challengepost#">
+    <!-- Google Tag Manager -->
+
+<!-- End Google Tag Manager -->
+
+      
+  
+
+
+    <meta charset="utf-8">
+    <title>Hack Apertus: Welcome to the first stage of «Hack Apertus», an open-source hackathon series to evaluate, align, and build on Apertus, Switzerland’s sovereign LLM. - Devpost</title>
+
+    <meta name="description" content="Welcome to the first stage of «Hack Apertus», an open-source hackathon series to evaluate, align, and build on Apertus, Switzerland’s sovereign LLM." />
+<meta property="fb:app_id" content="115745995110194" />
+<meta property="og:title" content="Hack Apertus" />
+<meta property="og:description" content="Welcome to the first stage of «Hack Apertus», an open-source hackathon series to evaluate, align, and build on Apertus, Switzerland’s sovereign LLM." />
+<meta property="og:type" content="challengepost:challenge" />
+<meta property="og:site_name" content="Hack Apertus" />
+<meta property="og:image" content="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/992/867/datas/original.png" />
+<meta property="og:url" content="https://hackapertus.devpost.com/" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Devpost" />
+<meta name="twitter:title" content="Hack Apertus" />
+<meta name="twitter:description" content="Welcome to the first stage of «Hack Apertus», an open-source hackathon series to evaluate, align, and build on Apertus, Switzerland’s sovereign LLM." />
+<meta name="twitter:image" content="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/992/867/datas/large.png" />
+<meta name="twitter:domain" content="devpost.com" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <!--[if gt IE 7]><!-->
+      
+      <link rel="stylesheet" media="screen" href="https://assets.devpost.com/assets/reimagine2-f0b5d68d5a825bebf7210a882eab77c86960fa3bcd1d5e6a901bf97d2b7f33a0.css" />
+      <link rel="stylesheet" media="screen" href="https://assets.devpost.com/assets/challenges/reimagine_layout-bb7576b700947dddb53e3ed4a3bcec0e99f4752c702b86f54b9ae932b23c6075.css" />
+      
+      
+
+    <!--<![endif]-->
+
+    <!--[if lt IE 9]>
+      
+    <![endif]-->
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="MTfUE5BCkF5Ef2kEa2Bu7BbKAF+NaBEn2G7aLZH/H96guvtdj2UuWgPicZSvm66g9fr2BSsANFF/pumj82sGrQ==" />
+      
+  
+
+    <meta name="mixpanel-api-key" content="1c828346e9fae00dbc3a117657f65895">
+    <meta name="mixpanel-debug" content="false">
+    
+
+    
+  <script type="application/ld+json" id="challenge-json-ld">
+
+    {
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "name": "Hack Apertus",
+  "location": {
+    "@type": "Place",
+    "name": "Hack Apertus",
+    "url": "https://hackapertus.devpost.com/",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Hack Apertus",
+      "addressLocality": "St. Gallen",
+      "addressRegion": "Sankt Gallen",
+      "postalCode": "9010",
+      "streetAddress": "Guisanstrasse 20, 9010 St. Gallen, Switzerland"
+    }
+  },
+  "description": "&lt;p&gt;This &lt;strong&gt;Online hackathon&lt;/strong&gt; is an invitation to spend just over two weeks building with &lt;strong&gt;Apertus&lt;/strong&gt;, Switzerland&#39;s fully open LLM. From &lt;strong&gt;1–16 October&lt;/strong&gt;, builders everywhere gather online to push Apertus 1.5 further. And, you&#39;re invited.&lt;/p&gt;\n&lt;p&gt;If you care about open and trustworthy AI that anyone can use, this is your place.&lt;/p&gt;\n&lt;p&gt;You&#39;ll work with both the &lt;strong&gt;8B and 70B models&lt;/strong&gt;, backed by our partners &lt;strong&gt;CSCS &lt;/strong&gt;and&amp;nbsp;&lt;strong&gt;Phoeniqs&lt;/strong&gt;, and experienced &lt;strong&gt;mentors&lt;/strong&gt; alongside you. Everything you ship stays open and reusable.&lt;br&gt;The strongest projects advances to the Grand Finals in May 2027 in St. Gallen, Switzerland where you&#39;ll compete for the Main «Hack Apertus» Award.&lt;/p&gt;\n&lt;h4 id=&quot;tracks-challenges&quot; class=&quot;h2-title&quot;&gt;\n&lt;strong&gt;🎯&lt;/strong&gt;&lt;strong&gt;🎯&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;TRACKS &amp;amp; CHALLENGES&lt;/strong&gt;\n&lt;/h4&gt;\n&lt;p&gt;&lt;strong&gt;🎯 TRACK 1 - APERTUS READINESS is about improving the model.&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;1 &lt;/strong&gt;&lt;strong&gt;A: Red-Teaming Apertus&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;strong&gt;&amp;nbsp;B:&amp;nbsp;&lt;/strong&gt;&lt;span&gt;&lt;strong&gt;Swiss Voices&lt;/strong&gt;&lt;br&gt;&lt;/span&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;🎯TRACK 2 - APERTUS ADOPTION is about showing what the model can do.&amp;nbsp;&lt;br&gt;&lt;/strong&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;strong&gt; A: &lt;/strong&gt;&lt;span&gt;&lt;strong&gt;Academia Challenges&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;strong&gt;2 B&lt;/strong&gt;&lt;strong&gt;: &lt;/strong&gt;&lt;span&gt;&lt;strong&gt;Own Project&lt;br&gt;&lt;br&gt;&lt;/strong&gt;&lt;/span&gt;&lt;strong&gt;&lt;span&gt;&lt;span&gt;👉🏼 &lt;/span&gt;All challenge descriptions can be found in our &lt;a href=&quot;https://hackapertus.notion.site/getting-started-guide-onlinehack&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Getting Started Guide (1 OCT, 12:00)&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;\n&lt;h4 id=&quot;first-steps-timeline&quot; class=&quot;h2-title&quot;&gt;&lt;span&gt;&lt;span&gt;&lt;strong&gt;📅&amp;nbsp; FIRST STEPS &amp;amp; TIMELINE&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h4&gt;\n&lt;p&gt;&lt;span&gt;&lt;strong&gt;a)&lt;/strong&gt; Join our &lt;a href=&quot;https://discord.gg/hack-apertus&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Discord&lt;/a&gt;, our main comms channel&lt;br&gt;&lt;strong&gt;b) &lt;/strong&gt;Find team mates on Discord if you don&#39;t work solo (1-5 allowed)&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;strong&gt;c) 1. OCT, 12:00 CEST&lt;/strong&gt;&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; Tracks and Challenges are released&lt;br&gt;&lt;strong&gt;d)&lt;/strong&gt; Book a session with one of our mentors&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;strong&gt;e)&lt;/strong&gt; Check for Online sessions to support you&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;strong&gt;f)&lt;/strong&gt; Work remotely on your solution&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;strong&gt;g) &lt;/strong&gt;&lt;span&gt;&lt;strong&gt;16. OCT, 12:00 CEST&lt;/strong&gt;, &lt;/span&gt;&lt;span&gt;Final submission deadline&lt;br&gt;&lt;/span&gt;&lt;span&gt;&lt;strong&gt;h) &lt;/strong&gt;Our expert jury reviews all submissions and selects the winners until &lt;span&gt;23 OCT 2026&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;&lt;strong&gt;Note:&lt;/strong&gt; &lt;/em&gt;This is the opening stage of a multi-month Hackathon journey. Over the following months, 6+ on-site hackathons across Switzerland follow. &lt;span&gt;Join one Hack or all of them. Online and On-site run as separate phases, so you choose how far you go. &lt;br&gt;The Winners from each Hack will compete for 🏆 Main «Hack Apertus» Award on 14.05.2027 in St.Gallen.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;h4 id=&quot;who-should-participate&quot; class=&quot;h2-title&quot;&gt;&lt;span&gt;👥 Who Should Participate?&lt;/span&gt;&lt;/h4&gt;\n&lt;p&gt;&lt;span&gt;&lt;strong&gt;Open to all&lt;/strong&gt;, recommended for&lt;/span&gt;&lt;br&gt;&lt;span&gt;AI/ML engineers, software developers, data scientists, researchers, and NLP practitioners, plus technical students (CS, data science, computational linguistics) and non-engineer domain experts (law, medicine, dialects, public sector).&lt;/span&gt;&lt;br&gt;&lt;span&gt;Bring a team or find one on Discord.&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;&lt;span&gt;&lt;span&gt;👉🏼 &lt;strong&gt;Choose your track,&lt;/strong&gt; find your team, and join a growing community advancing Apertus and showing where it can go next. Wherever you start, you&#39;ll help shape a sovereign, trustworthy foundation others can rely and build on.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;p&gt;New to &lt;em&gt;Apertus&lt;/em&gt;? It&#39;s an open large language model built by teams from EPFL, ETH Zurich and CSCS and released fully in the open, trained across 1,811 languages. Free to use, free to build on.&lt;/p&gt;",
+  "organizer": {
+    "@type": "Organization",
+    "name": "Devpost, Inc.",
+    "url": "https://devpost.com/"
+  },
+  "startDate": "2026-10-01T06:00:00.000-04:00",
+  "endDate": "2026-10-16T06:00:00.000-04:00",
+  "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/005/015/635/datas/original.png",
+  "url": "https://hackapertus.devpost.com/",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode"
+}
+</script>
+
+  </head>
+
+  <body id="body-challenges" class="foundation-grid action-show controller-challenges engine-challenges">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCFRZ3V"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+    <!--googleoff: anchor-->
+
+<!--[if lte IE 9 ]>
+  <div id="unsupported_browser_version" class="persistent_message alert-box alert">
+    <p>
+      We've detected that you are using an unsupported browser.  Please
+      <a href="http://browsehappy.com/">upgrade your browser</a>
+      to Internet Explorer 10 or higher.
+    </p>
+  </div>
+<![endif]-->
+
+
+<!--googleon: anchor-->
+
+
+
+    
+    
+    
+  
+<header id="global-nav">
+  <div class="contain-to-grid hide-for-large-up">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area top-bar-section">
+      <li>
+        <a class="toggle-topbar has-dropdown text-center" data-target-menu="world" id="hamburger" href="#">
+          <i class="ss-icon ss-rows"></i>
+</a>      </li>
+      <li class="name">
+        <span id="logo">
+  <a href="https://devpost.com">
+    <img alt="Devpost" class="show-for-small" src="https://assets.devpost.com/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg" />
+    <img alt="Devpost" class="show-for-medium-up" src="https://assets.devpost.com/assets/reimagine2/devpost-logo-25d0005ec83e3b9ef6fce93235bb6d642d7c828f31758ebdb5b7ee87de7d45c3.svg" />
+</a></span>
+
+      </li>
+      <li id="mobile-search-form-container" class="search-form-container mobile hide">
+        <form class="flex-row align-items-center search-form" action="https://devpost.com/hackathons" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+          <div class="search-field-wrapper flex-row align-items-stretch mx-4">
+  <span class="align-items-center">
+    <i class="fas fa-search search-icon"></i>
+  </span>
+
+  <input type="search" name="search" id="search" title="Search" placeholder="Search hackathons..." />
+
+  <a href="#" class="align-items-center close-icon" data-toggle-mobile-search>
+    <i class="fas fa-times"></i>
+  </a>
+</div>
+
+</form>      </li>
+
+      
+        <li class="right logged-out">
+    <ul>
+  <li>
+    <a id="main-link" href="https://secure.devpost.com/users/login?ref=top-nav-login">
+      Log in
+</a>  </li>
+  <li class="show-for-medium-up">
+    <a id="signup-link" href="https://secure.devpost.com/users/register?ref_content=signup_global_nav&amp;ref_feature=signup&amp;ref_medium=button">
+      <span class="inner-button">
+        Sign up
+      </span>
+</a>  </li>
+</ul>
+
+  </li>
+
+      <li class="search-expand-container mobile right">
+        <a data-toggle-mobile-search><i class="fas fa-search"></i></a>
+      </li>
+    </ul>
+
+    <section class="top-bar-section" data-top-nav-menu="user">
+      
+    </section>
+
+    <section class="top-bar-section" data-top-nav-menu="world">
+      <ul class="right">
+  <div class="mobile">
+  <a class="accordion-tab" data-accordion-tab href="#join-a-hackathon">
+    <span>Join a hackathon</span>
+    <i class="fa-angle-down fas" aria-hidden="true"></i>
+    <i class="fa-angle-up fas" aria-hidden="true"></i>
+  </a>
+  <div class="accordion-section" data-accordion-section="join-a-hackathon">
+    <div class="floating-menu-wrapper">
+      
+<div class="panel-section">
+  <a class="panel-product panel-product-content" href="https://devpost.com/hackathons">
+    <img alt="Devpost logo" src="https://assets.devpost.com/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg" />
+    <div>
+      <p class="title bold">Devpost</p>
+      <p class="subtitle">Participate in our public hackathons</p>
+    </div>
+</a>  <div class="panel-content with-icon-offset">
+    <a href="https://devpost.com/hackathons">
+      Hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>    <a href="https://devpost.com/software">
+      Projects <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>  </div>
+</div>
+
+    </div>
+
+    <div class="floating-menu-wrapper">
+      
+<div class="panel-section">
+  <a class="panel-product panel-product-content" href="https://devpost.team">
+    <img alt="Devpost for Teams" src="https://assets.devpost.com/assets/reimagine2/dft-logo-mobile-ab66dd5a4f4b2f045ad86d0e5f432dc85974c3d778b353d32213c24ca176484b.svg" />
+    <div>
+      <p class="title bold">Devpost for Teams</p>
+      <p class="subtitle">Access your company's private hackathons</p>
+    </div>
+  </a>
+  <div class="panel-content with-icon-offset">
+    <a href="https://devpost.team">
+      Login <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+    </a>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+  <a class="accordion-tab" data-accordion-tab href="#host-a-hackathon">
+    Host a hackathon
+    <i class="fa-angle-down fas" aria-hidden="true"></i>
+    <i class="fa-angle-up fas" aria-hidden="true"></i>
+  </a>
+  <div class="accordion-section" data-accordion-section="host-a-hackathon">
+    <div class="floating-menu-wrapper">
+      
+<div class="panel-section">
+  <a class="panel-product panel-product-content" href="https://info.devpost.com/product/public-hackathons">
+    <img alt="Devpost" src="https://assets.devpost.com/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg" />
+    <div>
+      <p class="title bold">Devpost</p>
+      <p class="subtitle">Grow your developer ecosystem and promote your platform</p>
+    </div>
+  </a>
+
+  <div class="panel-content with-icon-offset">
+    <a href="https://info.devpost.com/product/public-hackathons">
+      Host a public hackathon <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>  </div>
+</div>
+
+    </div>
+
+    <div class="floating-menu-wrapper">
+      
+<div class="panel-section">
+  <a class="panel-product panel-product-content" href="https://info.devpost.com/product/devpost-for-teams">
+    <img alt="Devpost for Teams logo" src="https://assets.devpost.com/assets/reimagine2/dft-logo-mobile-ab66dd5a4f4b2f045ad86d0e5f432dc85974c3d778b353d32213c24ca176484b.svg" />
+    <div>
+      <p class="title bold">Devpost for Teams</p>
+      <p class="subtitle">Drive innovation, collaboration, and retention within your organization</p>
+    </div>
+  </a>
+
+  <div class="panel-content with-icon-offset">
+    <a href="https://info.devpost.com/product/devpost-for-teams">
+      Host an internal hackathon <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>  </div>
+</div>
+
+    </div>
+
+    <div class="floating-menu-wrapper">
+      
+<div class="panel-section ">
+  <div class="panel-content">
+    <p class="title bold">By use case</p>
+
+
+      <a href="https://info.devpost.com/product/ai-hackathons">
+        AI hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>      <a href="https://info.devpost.com/product/customer-hackathons">
+        Customer hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>      <a href="https://info.devpost.com/product/devpost-for-teams">
+        Employee hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>      <a href="https://info.devpost.com/product/public-hackathons">
+        Public hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>  </div>
+</div>
+    </div>
+  </div>
+
+  <a class="accordion-tab" data-accordion-tab href="#resources">
+    Resources
+    <i class="fa-angle-down fas" aria-hidden="true"></i>
+    <i class="fa-angle-up fas" aria-hidden="true"></i>
+  </a>
+  <div class="accordion-section" data-accordion-section="resources">
+    <div class="floating-menu-wrapper">
+      <div class="panel-content">
+        <div class="panel-section">
+          
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://info.devpost.com/blog">
+      <p class="resource-title">
+        Blog
+      </p>
+      <p class="subtitle">
+        Insights into hackathon planning and participation
+      </p>
+</a>  </div>
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://info.devpost.com/customer-stories">
+      <p class="resource-title">
+        Customer stories
+      </p>
+      <p class="subtitle">
+        Inspiration from peers and other industry leaders
+      </p>
+</a>  </div>
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://info.devpost.com/guides">
+      <p class="resource-title">
+        Planning guides
+      </p>
+      <p class="subtitle">
+        Best practices for planning online and in-person hackathons
+      </p>
+</a>  </div>
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://info.devpost.com/webinar-events">
+      <p class="resource-title">
+        Webinars &amp; events
+      </p>
+      <p class="subtitle">
+        Upcoming events and on-demand recordings
+      </p>
+</a>  </div>
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://help.devpost.com/">
+      <p class="resource-title">
+        Help desk
+      </p>
+      <p class="subtitle">
+        Common questions and support documentation
+      </p>
+</a>  </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</ul>
+
+    </section>
+  </nav>
+</div>
+
+  <div class="contain-to-grid hide-for-small hide-for-medium">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <span id="logo">
+  <a href="https://devpost.com">
+    <img alt="Devpost" class="show-for-small" src="https://assets.devpost.com/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg" />
+    <img alt="Devpost" class="show-for-medium-up" src="https://assets.devpost.com/assets/reimagine2/devpost-logo-25d0005ec83e3b9ef6fce93235bb6d642d7c828f31758ebdb5b7ee87de7d45c3.svg" />
+</a></span>
+
+      </li>
+    </ul>
+
+    <section class="top-bar-section">
+      <ul class="left">
+  <li class="divider"></li>
+
+
+<li class="has-dropdown">
+  <a class="main-link" href="#">
+    Join a hackathon
+    <i class="fa-angle-down fas" aria-hidden="true"></i>
+    <i class="fa-angle-up fas" aria-hidden="true"></i>
+</a>
+  <ul class="dropdown float-left main-menu-dropdown" id="join-a-hackathon-dropdown">
+    <li class="floating-menu-wrapper">
+      <div class="floating-menu display-flex align-stretch">
+        <div class="panel-container bordered">
+          
+<div class="panel-section">
+  <a class="panel-product panel-product-content" href="https://devpost.com/hackathons">
+    <img alt="Devpost logo" src="https://assets.devpost.com/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg" />
+    <div>
+      <p class="title bold">Devpost</p>
+      <p class="subtitle">Participate in our public hackathons</p>
+    </div>
+</a>  <div class="panel-content with-icon-offset">
+    <a href="https://devpost.com/hackathons">
+      Hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>    <a href="https://devpost.com/software">
+      Projects <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>  </div>
+</div>
+
+        </div>
+
+        <div class="panel-container bordered">
+          
+<div class="panel-section">
+  <a class="panel-product panel-product-content" href="https://devpost.team">
+    <img alt="Devpost for Teams" src="https://assets.devpost.com/assets/reimagine2/dft-logo-mobile-ab66dd5a4f4b2f045ad86d0e5f432dc85974c3d778b353d32213c24ca176484b.svg" />
+    <div>
+      <p class="title bold">Devpost for Teams</p>
+      <p class="subtitle">Access your company's private hackathons</p>
+    </div>
+  </a>
+  <div class="panel-content with-icon-offset">
+    <a href="https://devpost.team">
+      Login <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+    </a>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </li>
+  </ul>
+</li>
+
+
+<li class="divider"></li>
+
+
+<li class="has-dropdown">
+  <a class="main-link" href="#">
+    Host a hackathon
+    <i class="fa-angle-down fas" aria-hidden="true"></i>
+    <i class="fa-angle-up fas" aria-hidden="true"></i>
+</a>
+  <ul class="dropdown float-left main-menu-dropdown" id="host-a-hackathon-dropdown">
+    <li class="floating-menu-wrapper">
+      <div class="floating-menu flex-row align-start">
+        <div class="panel-container bordered">
+          
+<div class="panel-section">
+  <a class="panel-product panel-product-content" href="https://info.devpost.com/product/public-hackathons">
+    <img alt="Devpost" src="https://assets.devpost.com/assets/reimagine2/devpost-logo-mobile-f3aff76bfc0b6ada9bb4ddd773bfc534769ed793f962612804a1e84c305a5f94.svg" />
+    <div>
+      <p class="title bold">Devpost</p>
+      <p class="subtitle">Grow your developer ecosystem and promote your platform</p>
+    </div>
+  </a>
+
+  <div class="panel-content with-icon-offset">
+    <a href="https://info.devpost.com/product/public-hackathons">
+      Host a public hackathon <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>  </div>
+</div>
+
+        </div>
+
+        <div class="panel-container bordered">
+          
+<div class="panel-section">
+  <a class="panel-product panel-product-content" href="https://info.devpost.com/product/devpost-for-teams">
+    <img alt="Devpost for Teams logo" src="https://assets.devpost.com/assets/reimagine2/dft-logo-mobile-ab66dd5a4f4b2f045ad86d0e5f432dc85974c3d778b353d32213c24ca176484b.svg" />
+    <div>
+      <p class="title bold">Devpost for Teams</p>
+      <p class="subtitle">Drive innovation, collaboration, and retention within your organization</p>
+    </div>
+  </a>
+
+  <div class="panel-content with-icon-offset">
+    <a href="https://info.devpost.com/product/devpost-for-teams">
+      Host an internal hackathon <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>  </div>
+</div>
+
+        </div>
+
+        <div class="panel-container">
+          
+<div class="panel-section pt-0">
+  <div class="panel-content">
+    <p class="title bold">By use case</p>
+
+
+      <a href="https://info.devpost.com/product/ai-hackathons">
+        AI hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>      <a href="https://info.devpost.com/product/customer-hackathons">
+        Customer hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>      <a href="https://info.devpost.com/product/devpost-for-teams">
+        Employee hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>      <a href="https://info.devpost.com/product/public-hackathons">
+        Public hackathons <i class="fa-arrow-right fas" aria-hidden="true" aria-label="Arrow icon"></i>
+</a>  </div>
+</div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</li>
+
+
+<li class="divider"></li>
+
+
+<li class="has-dropdown">
+  <a class="main-link" href="#">
+    Resources
+    <i class="fa-angle-down fas" aria-hidden="true"></i>
+    <i class="fa-angle-up fas" aria-hidden="true"></i>
+</a>
+  <ul class="dropdown float-left main-menu-dropdown" id="resources-dropdown">
+    <li class="floating-menu-wrapper">
+      <div class="floating-menu">
+        
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://info.devpost.com/blog">
+      <p class="resource-title">
+        Blog
+      </p>
+      <p class="subtitle">
+        Insights into hackathon planning and participation
+      </p>
+</a>  </div>
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://info.devpost.com/customer-stories">
+      <p class="resource-title">
+        Customer stories
+      </p>
+      <p class="subtitle">
+        Inspiration from peers and other industry leaders
+      </p>
+</a>  </div>
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://info.devpost.com/guides">
+      <p class="resource-title">
+        Planning guides
+      </p>
+      <p class="subtitle">
+        Best practices for planning online and in-person hackathons
+      </p>
+</a>  </div>
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://info.devpost.com/webinar-events">
+      <p class="resource-title">
+        Webinars &amp; events
+      </p>
+      <p class="subtitle">
+        Upcoming events and on-demand recordings
+      </p>
+</a>  </div>
+  <div class="panel-container mr-0 is-flex-grow-1 mb-4">
+    <a class="bordered bordered-hover panel-section padded" href="https://help.devpost.com/">
+      <p class="resource-title">
+        Help desk
+      </p>
+      <p class="subtitle">
+        Common questions and support documentation
+      </p>
+</a>  </div>
+
+      </div>
+    </li>
+  </ul>
+</li>
+
+
+</ul>
+
+
+      <div class="right">
+        <ul>
+          <li class="search-expand-container desktop main-link">
+            <a data-toggle-desktop-search><i class="fas fa-search"></i></a>
+          </li>
+
+          <li id="desktop-search-form-container" class="search-form-container hide">
+            <form class="flex-row align-items-center search-form" action="https://devpost.com/hackathons" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+              <div class="search-field-wrapper flex-row align-items-stretch mx-4">
+  <span class="align-items-center">
+    <i class="fas fa-search search-icon"></i>
+  </span>
+
+  <input type="search" name="search" id="search" title="Search" placeholder="Search hackathons..." />
+
+  <a href="#" class="align-items-center close-icon" data-toggle-desktop-search>
+    <i class="fas fa-times"></i>
+  </a>
+</div>
+
+</form>          </li>
+        </ul>
+
+          <ul>
+  <li>
+    <a id="main-link" href="https://secure.devpost.com/users/login?ref=top-nav-login">
+      Log in
+</a>  </li>
+  <li class="show-for-medium-up">
+    <a id="signup-link" href="https://secure.devpost.com/users/register?ref_content=signup_global_nav&amp;ref_feature=signup&amp;ref_medium=button">
+      <span class="inner-button">
+        Sign up
+      </span>
+</a>  </li>
+</ul>
+
+
+      </div>
+    </section>
+  </nav>
+</div>
+
+</header>
+
+
+
+
+
+    
+
+  <div id="register-bar-waypoint"></div>
+  <div id="register-bar" class="py-3">
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="flex-row align-items-center">
+          <h3 class="mr-5">
+            <a href="https://hackapertus.devpost.com/">Hack Apertus</a>
+          </h3>
+
+          <div class="deadline justify-self-right mr-5 hide-for-small"
+               data-date-info-tag
+               data-iso-date="2026-10-16T06:00:00-04:00"
+          >
+            <span data-dates-text>Deadline: Oct 16, 2026 @ 12:00pm CEST</span>
+          </div>
+
+          <div class="button-wrapper">
+            <a class="button radius is-marginless" href="https://hackapertus.devpost.com/register?flow%5Bdata%5D%5Bchallenge_id%5D=30350&amp;flow%5Bname%5D=register_for_challenge">Join hackathon</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<header id="challenge-header">
+    <div class="row">
+      <div class="small-12 columns" id="logo-container">
+          <h1 class="header-image">
+            <a href="https://hackapertus.devpost.com/"><img alt="Hack Apertus" src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/005/015/635/datas/full_width.png" /></a>
+          </h1>
+      </div>
+    </div>
+    <div id="challenge-navigation" class="tabbed-navigation">
+    <div class="row">
+      <div class="small-12 columns">
+        <nav class="top-bar">
+          <span class="toggle-button ss-icon">
+            <a href="#">Descend</a>
+          </span>
+
+          <section class="top-bar-section">
+            <ul class="left">
+              <li class="active"><a href="https://hackapertus.devpost.com/">Overview</a></li>
+
+
+                <li class="">
+                  <a href="https://devpost.com/submit-to/30350-hack-apertus/manage/submissions">My projects</a>
+</li>
+              <li class=""><a href="https://hackapertus.devpost.com/participants">Participants (877)</a></li>
+
+              <li class=""><a href="https://hackapertus.devpost.com/resources">Resources</a></li>
+
+              <li class=""><a href="https://hackapertus.devpost.com/rules">Rules</a></li>
+
+              
+
+              <li class="">
+                <a href="https://hackapertus.devpost.com/project-gallery">Project gallery</a>
+</li>
+              <li class="">
+                <a href="https://hackapertus.devpost.com/updates">Updates</a>
+</li>
+              <li class="">
+                <a href="https://hackapertus.devpost.com/forum_topics">Discussions</a>
+</li>
+
+                          </ul>
+          </section>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+</header>
+
+
+      
+<div id="introduction" class="mb-4 py-6">
+  <div class="row">
+    <div class="large-8 columns content">
+      <h1>Hack Apertus</h1>
+
+      <h3 class="mb-6">Welcome to the first stage of «Hack Apertus», an open-source hackathon series to evaluate, align, and build on Apertus, Switzerland’s sovereign LLM.</h3>
+
+      <div class="flex-row-medium-up justify-content-start">
+        <div class="ctas-col">
+          
+<section id="sidebar-ctas">
+
+  <div id="primary" class="register-primary-cta">
+      
+  <a class="button radius expand mb-3" data-main-register-button="true" href="https://hackapertus.devpost.com/register?flow%5Bdata%5D%5Bchallenge_id%5D=30350&amp;flow%5Bname%5D=register_for_challenge">Join hackathon</a>
+
+  </div>
+
+
+  
+</section>
+
+
+        </div>
+
+        <div class="requirements-col">
+            <h6>Who can participate</h6>
+            <ul id="eligibility-list" class="no-bullet">
+    <li>Above legal age of majority in country of residence</li>
+    <li>
+        All countries/territories, excluding
+          <span data-tooltip title="Brazil, Crimea, Cuba, Iran, North Korea, Quebec, Russia" class="has-tip nowrap">standard exceptions <i class="fas fa-info-circle"></i></span>
+    </li>
+</ul>
+
+
+          <small>
+            <a class="view-rules " href="/rules">View full rules</a>
+          </small>
+        </div>
+      </div>
+    </div>
+    <div class="large-4 columns">
+      
+<div id="challenge-information" class="panel is-marginless">
+    
+<section class="info">
+  <div class="flex-row justify-content-start flex-wrap">
+      <div class="mr-4">
+        <p id="date-info-tag" class="cp-tag status-label rounded hidden open">
+          <time id="time-left" class="value timeago" datetime="2026-10-16T06:00:00-04:00">October 16 at 6:00am EDT</time> to deadline
+        </p>
+      </div>
+
+      <p class="small right">
+        <a class="view-all-dates-link" href="https://hackapertus.devpost.com/details/dates">View schedule</a>
+      </p>
+  </div>
+
+  <div class="flex-row align-items-center">
+      <span
+        data-dates-text
+        data-date-info-tag
+        data-iso-date="2026-10-16T06:00:00-04:00"
+      >
+        Deadline: Oct 16, 2026 @ 12:00pm CEST
+      </span>
+      
+<div class="add-to-cal-button" data-add-to-calendar>
+  <i class="far fa-calendar-plus"></i>
+
+  <div class="calendars" data-calendars>
+    <ul class="no-bullet">
+        <li>
+          <a data-calendar="apple" data-hackathon-name="Hack Apertus" target="_blank" href="https://hackapertus.devpost.com/calendar">
+            <i class="fab fa-apple"></i>Apple
+</a>        </li>
+        <li>
+          <a data-calendar="google" data-hackathon-name="Hack Apertus" target="_blank" href="https://hackapertus.devpost.com/calendar/google">
+            <i class="fab fa-google"></i>Google
+</a>        </li>
+        <li>
+          <a data-calendar="outlook" data-hackathon-name="Hack Apertus" target="_blank" href="https://hackapertus.devpost.com/calendar/outlook">
+            <i class="fab fa-microsoft"></i>Outlook
+</a>        </li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+    <section class="info">
+      <table class="is-marginless">
+        <tr>
+          <td>
+            <div class="info-with-icon">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <a target="_blank" href="https://maps.google.com/?q=Guisanstrasse%2020%2C%209010%20St.%20Gallen%2C%20Switzerland">Grand Finals 2027 </a>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="info-with-icon ">
+
+              <i class="fas fa-landmark"></i>
+              <div class="info">
+                Public
+              </div>
+</div>          </td>
+        </tr>
+        <tr>
+          <td>
+            <a class="prizes-link underline" href="#prizes">
+              <strong><span data-currency="true">€<span data-currency-value>10,680</span></span></strong> in cash
+</a>          </td>
+          <td class="nowrap">
+            <strong>877</strong>
+            participants
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="info">
+        <div class="info-with-icon mb-4">
+          <i class="fas fa-flag"></i>
+          <div class="info">
+            <a href="https://devpost.com/hackathons?organization=aiLights+Association">
+              <span href="#" class="label round host-label">
+                aiLights Association
+              </span>
+</a>          </div>
+        </div>
+
+
+        <div class="info-with-icon">
+          <i class="fas fa-tag"></i>
+          <div class="info">
+              <a href="https://devpost.com/hackathons?themes%5B%5D=Education">
+                <span href="#" class="label theme-label mr-1 mb-2">
+                  Education
+                </span>
+</a>              <a href="https://devpost.com/hackathons?themes%5B%5D=Machine+Learning%2FAI">
+                <span href="#" class="label theme-label mr-1 mb-2">
+                  Machine Learning/AI
+                </span>
+</a>              <a href="https://devpost.com/hackathons?themes%5B%5D=Social+Good">
+                <span href="#" class="label theme-label mr-1 mb-2">
+                  Social Good
+                </span>
+</a>          </div>
+        </div>
+    </section>
+</div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+    <div id="container">
+      <div class="row">
+        <div class="small-12 columns">
+          
+
+          <section id="main" class="row text-content content-section">
+                <section class="large-12 columns" role="main">
+                  
+
+
+<div class="row">
+  <div class="large-8 columns">
+      <article id="challenge-description">
+
+  <p>This <strong>Online hackathon</strong> is an invitation to spend just over two weeks building with <strong>Apertus</strong>, Switzerland's fully open LLM. From <strong>1–16 October</strong>, builders everywhere gather online to push Apertus 1.5 further. And, you're invited.</p>
+<p>If you care about open and trustworthy AI that anyone can use, this is your place.</p>
+<p>You'll work with both the <strong>8B and 70B models</strong>, backed by our partners <strong>CSCS </strong>and&nbsp;<strong>Phoeniqs</strong>, and experienced <strong>mentors</strong> alongside you. Everything you ship stays open and reusable.<br>The strongest projects advances to the Grand Finals in May 2027 in St. Gallen, Switzerland where you'll compete for the Main «Hack Apertus» Award.</p>
+<h4 id="tracks-challenges" class="h2-title">
+<strong>🎯</strong><strong>🎯</strong><strong>&nbsp;TRACKS &amp; CHALLENGES</strong>
+</h4>
+<p><strong>🎯 TRACK 1 - APERTUS READINESS is about improving the model.<br></strong><strong>1 </strong><strong>A: Red-Teaming Apertus<br></strong><strong>1</strong><strong>&nbsp;B:&nbsp;</strong><span><strong>Swiss Voices</strong><br></span><strong><br></strong><strong>🎯TRACK 2 - APERTUS ADOPTION is about showing what the model can do.&nbsp;<br></strong><strong>2</strong><strong> A: </strong><span><strong>Academia Challenges</strong></span><br><strong>2 B</strong><strong>: </strong><span><strong>Own Project<br><br></strong></span><strong><span><span>👉🏼 </span>All challenge descriptions can be found in our <a href="https://hackapertus.notion.site/getting-started-guide-onlinehack" target="_blank" rel="noopener">Getting Started Guide (1 OCT, 12:00)</a>.<br><br></span></strong></p>
+<h4 id="first-steps-timeline" class="h2-title"><span><span><strong>📅&nbsp; FIRST STEPS &amp; TIMELINE</strong></span></span></h4>
+<p><span><strong>a)</strong> Join our <a href="https://discord.gg/hack-apertus" target="_blank" rel="noopener">Discord</a>, our main comms channel<br><strong>b) </strong>Find team mates on Discord if you don't work solo (1-5 allowed)</span><span><br></span><span><strong>c) 1. OCT, 12:00 CEST</strong></span><span>:</span><span> Tracks and Challenges are released<br><strong>d)</strong> Book a session with one of our mentors<br></span><span><strong>e)</strong> Check for Online sessions to support you<br></span><span><strong>f)</strong> Work remotely on your solution</span><span><br></span><strong>g) </strong><span><strong>16. OCT, 12:00 CEST</strong>, </span><span>Final submission deadline<br></span><span><strong>h) </strong>Our expert jury reviews all submissions and selects the winners until <span>23 OCT 2026&nbsp;</span></span></p>
+<p><em><strong>Note:</strong> </em>This is the opening stage of a multi-month Hackathon journey. Over the following months, 6+ on-site hackathons across Switzerland follow. <span>Join one Hack or all of them. Online and On-site run as separate phases, so you choose how far you go. <br>The Winners from each Hack will compete for 🏆 Main «Hack Apertus» Award on 14.05.2027 in St.Gallen.<br><br></span></p>
+<h4 id="who-should-participate" class="h2-title"><span>👥 Who Should Participate?</span></h4>
+<p><span><strong>Open to all</strong>, recommended for</span><br><span>AI/ML engineers, software developers, data scientists, researchers, and NLP practitioners, plus technical students (CS, data science, computational linguistics) and non-engineer domain experts (law, medicine, dialects, public sector).</span><br><span>Bring a team or find one on Discord.</span></p>
+<p><span><span>👉🏼 <strong>Choose your track,</strong> find your team, and join a growing community advancing Apertus and showing where it can go next. Wherever you start, you'll help shape a sovereign, trustworthy foundation others can rely and build on.<br><br></span></span></p>
+<p>New to <em>Apertus</em>? It's an open large language model built by teams from EPFL, ETH Zurich and CSCS and released fully in the open, trained across 1,811 languages. Free to use, free to build on.</p>
+</article>
+
+      
+    <article id="challenge-requirements">
+      <div class="section-title bold">
+        <h3 class="subheader section-title-left">
+          Requirements
+        </h3>
+        <span class="section-title-line"></span>
+      </div>
+
+      <div>
+        <h4><span>What to submit?<br></span></h4>
+<p><span><span>Submission deadline: <strong>16 OCT 2026, 12:00 CEST</strong><br></span>Please make sure you're in time, no extension possible.<br><br>The Tracks have different submission requirements which are published in the Getting started guide as of 1 OCT, 12:00 CEST.<br></span></p>
+<p><span>All submissions are handled via our Website (not via Devpost):<br></span><a href="https://hackapertus.ch/online-hack/submissions" rel="noopener noreferrer"><span style="text-decoration: underline;    ">https://hackapertus.ch/online-hack/submissions</span></a></p>
+      </div>
+    </article>
+
+      <article id="challenge-sponsors-mobile" class="hide-for-medium-up">
+  <div class="section-title bold">
+    <h3 class="subheader section-title-left">
+      Hackathon Sponsors
+    </h3>
+    <span class="section-title-line"></span>
+  </div>
+
+  <div id="sponsor-tiles">
+        <h5>Main Partners</h5>
+    <a target="_blank" title="Go to Phoeniqs page" href="https://phoeniqs.com/en"><img id="sponsor_logo_phoeniqs" class="sponsor_logo_img" alt="Phoeniqs" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/048/707/highres/Phoeniqs.png" /></a>
+    <a target="_blank" title="Go to CSCS page" href="https://www.cscs.ch/"><img id="sponsor_logo_cscs" class="sponsor_logo_img" alt="CSCS" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/048/704/highres/CSCS.png" /></a>
+    <a target="_blank" title="Go to Innosuisse page" href="https://ai-booster.ch/about/"><img id="sponsor_logo_innosuisse" class="sponsor_logo_img" alt="Innosuisse" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/156/highres/Innosuisse.png" /></a>
+    <a target="_blank" title="Go to Kanton St.Gallen page" href="https://www.sg.ch/"><img id="sponsor_logo_kanton st.gallen" class="sponsor_logo_img" alt="Kanton St.Gallen" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/158/highres/Kanton-StGallen.png" /></a>
+    <a target="_blank" title="Go to Kanton Bern page" href="https://www.be.ch/de/start.html"><img id="sponsor_logo_kanton bern" class="sponsor_logo_img" alt="Kanton Bern" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/159/highres/Kanton-Bern.png" /></a>
+    <a target="_blank" title="Go to Supertext page" href="https://www.supertext.com/en"><img id="sponsor_logo_supertext" class="sponsor_logo_img" alt="Supertext" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/048/702/highres/Supertext.png" /></a>
+    <a target="_blank" title="Go to BaselTech page" href="https://baseltech.swiss/"><img id="sponsor_logo_baseltech" class="sponsor_logo_img" alt="BaselTech" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/392/highres/BaselTech.png" /></a>
+    <a target="_blank" title="Go to Wikimedia page" href="https://wikimedia.ch/en/"><img id="sponsor_logo_wikimedia" class="sponsor_logo_img" alt="Wikimedia" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/551/highres/Wikimedia.png" /></a>
+    <h5>Online Hack Partner</h5>
+    <a target="_blank" title="Go to Livemap page" href="https://livemap.ch/"><img id="sponsor_logo_livemap" class="sponsor_logo_img" alt="Livemap" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/048/706/highres/Livemap.png" /></a>
+    <h5>Supporting Partners</h5>
+    <a target="_blank" title="Go to Hugging Face page" href="https://huggingface.co/"><img id="sponsor_logo_hugging face" class="sponsor_logo_img" alt="Hugging Face" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/900/highres/HuggingFace.png" /></a>
+    <a target="_blank" title="Go to ElevenLabs page" href="https://elevenlabs.io/"><img id="sponsor_logo_elevenlabs" class="sponsor_logo_img" alt="ElevenLabs" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/050/244/highres/Devpost_logo_%284%29.png" /></a>
+    <a target="_blank" title="Go to Edit with Ava page" href="https://editwithava.com/"><img id="sponsor_logo_edit with ava" class="sponsor_logo_img" alt="Edit with Ava" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/050/089/highres/EditwithAva.png" /></a>
+    <h5>Academic Partners</h5>
+    <a target="_blank" title="Go to BFH page" href="https://www.bfh.ch/ti/en/news/generative-ai-lab/"><img id="sponsor_logo_bfh" class="sponsor_logo_img" alt="BFH" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/815/highres/BFH.png" /></a>
+    <a target="_blank" title="Go to FHGR page" href="https://www.fhgr.ch/en/"><img id="sponsor_logo_fhgr" class="sponsor_logo_img" alt="FHGR" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/814/highres/FHGR.png" /></a>
+    <a target="_blank" title="Go to FHNW page" href="https://www.fhnw.ch/en"><img id="sponsor_logo_fhnw" class="sponsor_logo_img" alt="FHNW" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/395/highres/20.png" /></a>
+    <a target="_blank" title="Go to HSLU page" href="https://www.hslu.ch/en/"><img id="sponsor_logo_hslu" class="sponsor_logo_img" alt="HSLU" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/396/highres/21.png" /></a>
+    <a target="_blank" title="Go to IDSIA page" href="https://idsia.usi-supsi.ch/"><img id="sponsor_logo_idsia" class="sponsor_logo_img" alt="IDSIA" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/397/highres/22.png" /></a>
+    <a target="_blank" title="Go to OST page" href="https://www.ost.ch/en/"><img id="sponsor_logo_ost" class="sponsor_logo_img" alt="OST" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/813/highres/OST.png" /></a>
+    <a target="_blank" title="Go to University of St.Gallen page" href="https://ics.unisg.ch/"><img id="sponsor_logo_university of st.gallen" class="sponsor_logo_img" alt="University of St.Gallen" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/399/highres/HSG_ICS.png" /></a>
+    <a target="_blank" title="Go to University of Zurich page" href="https://www.uzh.ch/en.html"><img id="sponsor_logo_university of zurich" class="sponsor_logo_img" alt="University of Zurich" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/398/highres/23.png" /></a>
+    <a target="_blank" title="Go to ZHAW page" href="https://www.zhaw.ch/en/university"><img id="sponsor_logo_zhaw" class="sponsor_logo_img" alt="ZHAW" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/401/highres/26.png" /></a>
+    <a target="_blank" title="Go to ZhdK page" href="https://www.zhdk.ch/en/zurich-university-of-the-arts-1"><img id="sponsor_logo_zhdk" class="sponsor_logo_img" alt="ZhdK" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/400/highres/25.png" /></a>
+    <h5>Founding organisation</h5>
+    <a target="_blank" title="Go to aiLights page" href="https://ailights.org/"><img id="sponsor_logo_ailights" class="sponsor_logo_img" alt="aiLights" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/410/highres/ailights.png" /></a>
+    <h5>Co-Initiators</h5>
+    <a target="_blank" title="Go to Artifact page" href="https://artifact.swiss/"><img id="sponsor_logo_artifact" class="sponsor_logo_img" alt="Artifact" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/411/highres/Artifact.png" /></a>
+    <a target="_blank" title="Go to Swiss Engineering page" href="https://www.swissengineering.ch/"><img id="sponsor_logo_swiss engineering" class="sponsor_logo_img" alt="Swiss Engineering" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/412/highres/SwissEngineering.png" /></a>
+
+  </div>
+</article>
+
+      <article id="prizes">
+  <div class="section-title bold">
+    <h3 class="subheader section-title-left">
+      Prizes
+    </h3>
+    <span class="section-title-line"></span>
+  </div>
+
+  <div id="prizes-overview">
+    <div class="row">
+      <div class="column-left text-left text-large"><span data-currency="true">€<span data-currency-value>10,680</span></span>+ in prizes</div>
+      <div class="column-right text-right text-bold text-small">+ other prizes</div>
+    </div>
+  </div>
+
+    <div class="row">
+        <div class="small-12 large-6 columns end prize" id="prize_104183">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - Winner Red-Teaming
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              <span data-currency="true">€<span data-currency-value>2,670</span></span> in cash
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>Cash Prize 
+<br />(2,500 CHF) - paid in CHF
+<br />Qualifies to compete for the Main «Hack Apertus» Award (St.Gallen, 14.05.2027)
+<br />Hugging Face Credits (200 $)</p>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns end prize" id="prize_104644">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - 1st Runner-up Red-Teaming
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>Hugging Face Credits (100 $)
+<br />A certificate + dedicated LinkedIn post</p>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 large-6 columns end prize" id="prize_104645">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - 2nd Runner-up Red-Teaming
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>Hugging Face Credits (50 $)
+<br />A certificate + dedicated LinkedIn post</p>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns end prize" id="prize_104184">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - Winner Swiss Voices
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              <span data-currency="true">€<span data-currency-value>2,670</span></span> in cash
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>Cash Prize (2,500 CHF) - paid in CHF
+<br />Qualifies to compete for the Main «Hack Apertus» Award (St.Gallen, 14.05.2027)
+<br />Hugging Face Credits (200 $)</p>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 large-6 columns end prize" id="prize_104646">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - 1st Runner-up Swiss Voices
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>A Showcase spot at the Grand Finals (14.05.2027)
+<br />Hugging Face Credits (100 $)
+<br />A certificate + dedicated LinkedIn post</p>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns end prize" id="prize_104647">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - 2nd Runner-up Swiss Voices
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>A Showcase spot at the Grand Finals (14.05.2027)
+<br />Hugging Face Credits (50 $)
+<br />A certificate + dedicated LinkedIn post
+</p>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 large-6 columns end prize" id="prize_104185">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                 Hack Apertus Online - Winner Apertus Adoption: Academia
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              <span data-currency="true">€<span data-currency-value>2,670</span></span> in cash
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>Cash Prize (2,500 CHF) - paid in CHF
+<br />Qualifies to compete for the Main «Hack Apertus» Award (St.Gallen, 14.05.2027)
+<br />Hugging Face Credits (200 $)</p>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns end prize" id="prize_104648">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - 1st Runner-up Apertus Adoption: Academia
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>- 5 Summit passes for GenAI Zurich 2027 <a rel="nofollow" href="https://www.genaizurich.ch/">https://www.genaizurich.ch/</a>
+<br />- A certificate + dedicated LinkedIn post
+<br />- Hugging Face Credits (100 $)</p>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 large-6 columns end prize" id="prize_104649">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - 2nd Runner-up Apertus Adoption: Academia
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>A certificate + dedicated LinkedIn post
+<br />Hugging Face Credits (50 $)</p>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns end prize" id="prize_106012">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - Winner Apertus Adoption: Own project
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              <span data-currency="true">€<span data-currency-value>2,670</span></span> in cash
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>- Cash Prize (2,500 CHF) - paid in CHF
+<br />- Qualifies to compete for the Main «Hack Apertus» Award (St.Gallen, 14.05.2027)
+<br />- Hugging Face Credits (200 $)
+<br />- ElevenLabs 3-month Scale Tier ($897 value/team member)</p>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 large-6 columns end prize" id="prize_105785">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                 Hack Apertus Online - 1st Runner up Apertus Adoption: Own project
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>Project Showcase at «Hack Apertus» Midway Event
+<br />→ 9.02.2027, Zurich, Novu Campus @ The Circle
+<br />→ Supported by Phoeniqs
+<br />→ Travel reimbursements for the team
+<br />- ElevenLabs 3-month Pro Tier ($297 value/team member)</p>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns end prize" id="prize_105786">
+          <h6>
+            <div class="prize-title">
+              <span class="ss-icon ss-standard ss-star prize-icon"></span>
+              <div>
+                Hack Apertus Online - 2nd Runner up Apertus Adoption: Own project
+              </div>
+
+            </div>
+          </h6>
+
+          <div class="prize-content">
+            <div class="prize-value">
+              
+            </div>
+
+            <div class="prize-winners">
+              1 winner
+            </div>
+
+            <p>- 5 Summit passes for Davos Tech Summit 2027
+<br /><a rel="nofollow" href="https://davostechsummit.com/">https://davostechsummit.com/</a>
+<br />- ElevenLabs 3-month Pro Tier ($297 value/team member)</p>
+          </div>
+        </div>
+    </div>
+</article>
+
+      <article class="hide" id="possible-achievements" data-possible-achievements>
+  <div class="section-title bold">
+    <h3 class="subheader section-title-left">
+      Devpost Achievements
+    </h3>
+    <span class="section-title-line"></span>
+  </div>
+
+  <p>Submitting to this hackathon could earn you:</p>
+
+  <div class="flex-row" data-list>
+    <!-- achievement list -->
+  </div>
+
+  
+</article>
+
+      
+      <article id="judges">
+  <div class="section-title bold">
+    <h3 class="subheader section-title-left">
+      Judges
+    </h3>
+    <span class="section-title-line"></span>
+  </div>
+
+    <div class="row">
+        <div class="small-12 large-6 columns challenge_judge">
+          <div class="row">
+            <div class="small-4 large-3 columns">
+              <figure>
+                <img alt="Isabel Steiner" class="user-photo photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://assets.devpost.com/assets/defaults/no-avatar-100-b164b29ca37cbce6b6dbcf4d61d40ba7a3081dfd121a32e2a773eb8f018f0a1f.png&#39;;" src="//d112y698adiu2z.cloudfront.net/photos/production/judge_photos/005/071/385/datas/large.png" />
+              </figure>
+            </div>
+
+            <div class="small-8 large-9 columns">
+              <p>
+                <strong>Isabel Steiner</strong><br>
+                <i>President aiLights &amp; Migros Online</i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns challenge_judge">
+          <div class="row">
+            <div class="small-4 large-3 columns">
+              <figure>
+                <img alt="Dr. Wiebke Hutiri" class="user-photo photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://assets.devpost.com/assets/defaults/no-avatar-100-b164b29ca37cbce6b6dbcf4d61d40ba7a3081dfd121a32e2a773eb8f018f0a1f.png&#39;;" src="//d112y698adiu2z.cloudfront.net/photos/production/judge_photos/005/071/391/datas/large.png" />
+              </figure>
+            </div>
+
+            <div class="small-8 large-9 columns">
+              <p>
+                <strong>Dr. Wiebke Hutiri</strong><br>
+                <i></i>
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 large-6 columns challenge_judge">
+          <div class="row">
+            <div class="small-4 large-3 columns">
+              <figure>
+                <img alt="Dr. Klaus L. Fuchs" class="user-photo photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://assets.devpost.com/assets/defaults/no-avatar-100-b164b29ca37cbce6b6dbcf4d61d40ba7a3081dfd121a32e2a773eb8f018f0a1f.png&#39;;" src="//d112y698adiu2z.cloudfront.net/photos/production/judge_photos/005/071/400/datas/large.png" />
+              </figure>
+            </div>
+
+            <div class="small-8 large-9 columns">
+              <p>
+                <strong>Dr. Klaus L. Fuchs</strong><br>
+                <i>Managing Director @ Rockstar</i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns challenge_judge">
+          <div class="row">
+            <div class="small-4 large-3 columns">
+              <figure>
+                <img alt="Prof. Dr. Andreas Martin" class="user-photo photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://assets.devpost.com/assets/defaults/no-avatar-100-b164b29ca37cbce6b6dbcf4d61d40ba7a3081dfd121a32e2a773eb8f018f0a1f.png&#39;;" src="//d112y698adiu2z.cloudfront.net/photos/production/judge_photos/005/090/503/datas/large.png" />
+              </figure>
+            </div>
+
+            <div class="small-8 large-9 columns">
+              <p>
+                <strong>Prof. Dr. Andreas Martin</strong><br>
+                <i>FHNW</i>
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 large-6 columns challenge_judge">
+          <div class="row">
+            <div class="small-4 large-3 columns">
+              <figure>
+                <img alt="Oleg Lavrovsky" class="user-photo photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://assets.devpost.com/assets/defaults/no-avatar-100-b164b29ca37cbce6b6dbcf4d61d40ba7a3081dfd121a32e2a773eb8f018f0a1f.png&#39;;" src="//d112y698adiu2z.cloudfront.net/photos/production/judge_photos/005/101/318/datas/large.png" />
+              </figure>
+            </div>
+
+            <div class="small-8 large-9 columns">
+              <p>
+                <strong>Oleg Lavrovsky</strong><br>
+                <i>Technical Community Manager SNAI</i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="small-12 large-6 columns challenge_judge">
+          <div class="row">
+            <div class="small-4 large-3 columns">
+              <figure>
+                <img alt="Prof. Dr. Siegfried Handschuh" class="user-photo photo_image image-replacement" onerror="this.onerror=null;this.src=&#39;https://assets.devpost.com/assets/defaults/no-avatar-100-b164b29ca37cbce6b6dbcf4d61d40ba7a3081dfd121a32e2a773eb8f018f0a1f.png&#39;;" src="//d112y698adiu2z.cloudfront.net/photos/production/judge_photos/005/380/591/datas/large.png" />
+              </figure>
+            </div>
+
+            <div class="small-8 large-9 columns">
+              <p>
+                <strong>Prof. Dr. Siegfried Handschuh</strong><br>
+                <i>University of St.Gallen</i>
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+</article>
+
+      <article id="judging-criteria">
+  <div class="section-title bold">
+    <h3 class="subheader section-title-left">
+      Judging Criteria
+    </h3>
+    <span class="section-title-line"></span>
+  </div>
+
+  <ul class="no-bullet">
+      <li>
+        <strong>Track 1A</strong><br>
+        Find details in challenge description
+      </li>
+      <li>
+        <strong>Track 1B</strong><br>
+        Find details in challenge description
+      </li>
+      <li>
+        <strong>Track 2A</strong><br>
+        Find details in challenge descriptions
+      </li>
+      <li>
+        <strong>Track 2B</strong><br>
+        - Purposeful use of AI
+- Technical rigour
+- Value, cost &amp; scalability
+- Sovereign deployability
+- Implementation feasibility
+      </li>
+  </ul>
+</article>
+
+  </div>
+  <div class="large-4 columns" id="content-sidebar">
+
+
+    
+    <div class="panel">
+      
+        <section>
+    <p>
+      Questions?
+      <a href="/cdn-cgi/l/email-protection#e68e838a8a89a68e87858d87968394929395c8858e">Email the hackathon manager</a>
+    </p>
+  </section>
+
+      
+<section class="hide" data-add-this-buttons="true">
+  <p class="mb-1">
+    <strong>
+      Invite others to compete
+    </strong>
+  </p>
+  
+
+
+  <ul class="h-nav clearfix inline-list" id="social-links">
+    <li id="promote-twitter">
+      
+<div class="social-icon">
+  <div class="addthis_32x32_style addthis_toolbox addthis_default_style"
+    addthis:url="https://hackapertus.devpost.com/?utm_campaign=hack-apertus.2026-06-07&amp;utm_content=challenge_share&amp;utm_medium=twitter&amp;utm_source=cp"
+    addthis:title="Check out Hack Apertus"
+    addthis:description="https://hackapertus.devpost.com/">
+    <a class="addthis_button_twitter"
+      tw:count="false"
+      tw:counturl="https://hackapertus.devpost.com/"
+      tw:url="https://hackapertus.devpost.com/?utm_campaign=hack-apertus.2026-06-07&amp;utm_content=challenge_share&amp;utm_medium=twitter&amp;utm_source=cp"
+      tw:via="Devpost"
+      tw:text="Check out Hack Apertus">
+    </a>
+  </div>
+</div>
+
+    </li>
+
+    <li id="promote-fb-li">
+      
+<div class="social-icon">
+  <div class="addthis_32x32_style addthis_toolbox addthis_default_style"
+    addthis:url="https://hackapertus.devpost.com/"
+    addthis:title="Hack Apertus"
+    addthis:description="Welcome to the first stage of «Hack Apertus», an open-source hackathon series to evaluate, align, and build on Apertus, Switzerland’s sovereign LLM.">
+    <div class="custom_images">
+      <a class="addthis_button_facebook"
+        fb:like:show_faces="false">
+      </a>
+    </div>
+  </div>
+</div>
+
+    </li>
+
+      <li id="promote-reddit-li">
+        <div class="social-icon">
+  <a class="addthis_32x32_style addthis_button_reddit"
+    addthis:url="https://hackapertus.devpost.com/?utm_campaign=hack-apertus.2026-06-07&amp;utm_content=challenge_share&amp;utm_medium=reddit&amp;utm_source=cp"
+    addthis:title="Hack Apertus"
+    ></a>
+</div>
+
+      </li>
+</ul>
+</section>
+
+    </div>
+
+      <article id="challenge-sponsors-side" class="hide-for-small mb-4">
+    <h3 class="text-center">Hackathon sponsors</h3>
+        <h5>Main Partners</h5>
+    <a target="_blank" title="Go to Phoeniqs page" href="https://phoeniqs.com/en"><img id="sponsor_logo_phoeniqs" class="sponsor_logo_img" alt="Phoeniqs" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/048/707/highres/Phoeniqs.png" /></a>
+    <a target="_blank" title="Go to CSCS page" href="https://www.cscs.ch/"><img id="sponsor_logo_cscs" class="sponsor_logo_img" alt="CSCS" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/048/704/highres/CSCS.png" /></a>
+    <a target="_blank" title="Go to Innosuisse page" href="https://ai-booster.ch/about/"><img id="sponsor_logo_innosuisse" class="sponsor_logo_img" alt="Innosuisse" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/156/highres/Innosuisse.png" /></a>
+    <a target="_blank" title="Go to Kanton St.Gallen page" href="https://www.sg.ch/"><img id="sponsor_logo_kanton st.gallen" class="sponsor_logo_img" alt="Kanton St.Gallen" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/158/highres/Kanton-StGallen.png" /></a>
+    <a target="_blank" title="Go to Kanton Bern page" href="https://www.be.ch/de/start.html"><img id="sponsor_logo_kanton bern" class="sponsor_logo_img" alt="Kanton Bern" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/159/highres/Kanton-Bern.png" /></a>
+    <a target="_blank" title="Go to Supertext page" href="https://www.supertext.com/en"><img id="sponsor_logo_supertext" class="sponsor_logo_img" alt="Supertext" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/048/702/highres/Supertext.png" /></a>
+    <a target="_blank" title="Go to BaselTech page" href="https://baseltech.swiss/"><img id="sponsor_logo_baseltech" class="sponsor_logo_img" alt="BaselTech" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/392/highres/BaselTech.png" /></a>
+    <a target="_blank" title="Go to Wikimedia page" href="https://wikimedia.ch/en/"><img id="sponsor_logo_wikimedia" class="sponsor_logo_img" alt="Wikimedia" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/551/highres/Wikimedia.png" /></a>
+    <h5>Online Hack Partner</h5>
+    <a target="_blank" title="Go to Livemap page" href="https://livemap.ch/"><img id="sponsor_logo_livemap" class="sponsor_logo_img" alt="Livemap" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/048/706/highres/Livemap.png" /></a>
+    <h5>Supporting Partners</h5>
+    <a target="_blank" title="Go to Hugging Face page" href="https://huggingface.co/"><img id="sponsor_logo_hugging face" class="sponsor_logo_img" alt="Hugging Face" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/900/highres/HuggingFace.png" /></a>
+    <a target="_blank" title="Go to ElevenLabs page" href="https://elevenlabs.io/"><img id="sponsor_logo_elevenlabs" class="sponsor_logo_img" alt="ElevenLabs" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/050/244/highres/Devpost_logo_%284%29.png" /></a>
+    <a target="_blank" title="Go to Edit with Ava page" href="https://editwithava.com/"><img id="sponsor_logo_edit with ava" class="sponsor_logo_img" alt="Edit with Ava" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/050/089/highres/EditwithAva.png" /></a>
+    <h5>Academic Partners</h5>
+    <a target="_blank" title="Go to BFH page" href="https://www.bfh.ch/ti/en/news/generative-ai-lab/"><img id="sponsor_logo_bfh" class="sponsor_logo_img" alt="BFH" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/815/highres/BFH.png" /></a>
+    <a target="_blank" title="Go to FHGR page" href="https://www.fhgr.ch/en/"><img id="sponsor_logo_fhgr" class="sponsor_logo_img" alt="FHGR" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/814/highres/FHGR.png" /></a>
+    <a target="_blank" title="Go to FHNW page" href="https://www.fhnw.ch/en"><img id="sponsor_logo_fhnw" class="sponsor_logo_img" alt="FHNW" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/395/highres/20.png" /></a>
+    <a target="_blank" title="Go to HSLU page" href="https://www.hslu.ch/en/"><img id="sponsor_logo_hslu" class="sponsor_logo_img" alt="HSLU" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/396/highres/21.png" /></a>
+    <a target="_blank" title="Go to IDSIA page" href="https://idsia.usi-supsi.ch/"><img id="sponsor_logo_idsia" class="sponsor_logo_img" alt="IDSIA" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/397/highres/22.png" /></a>
+    <a target="_blank" title="Go to OST page" href="https://www.ost.ch/en/"><img id="sponsor_logo_ost" class="sponsor_logo_img" alt="OST" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/813/highres/OST.png" /></a>
+    <a target="_blank" title="Go to University of St.Gallen page" href="https://ics.unisg.ch/"><img id="sponsor_logo_university of st.gallen" class="sponsor_logo_img" alt="University of St.Gallen" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/399/highres/HSG_ICS.png" /></a>
+    <a target="_blank" title="Go to University of Zurich page" href="https://www.uzh.ch/en.html"><img id="sponsor_logo_university of zurich" class="sponsor_logo_img" alt="University of Zurich" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/398/highres/23.png" /></a>
+    <a target="_blank" title="Go to ZHAW page" href="https://www.zhaw.ch/en/university"><img id="sponsor_logo_zhaw" class="sponsor_logo_img" alt="ZHAW" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/401/highres/26.png" /></a>
+    <a target="_blank" title="Go to ZhdK page" href="https://www.zhdk.ch/en/zurich-university-of-the-arts-1"><img id="sponsor_logo_zhdk" class="sponsor_logo_img" alt="ZhdK" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/400/highres/25.png" /></a>
+    <h5>Founding organisation</h5>
+    <a target="_blank" title="Go to aiLights page" href="https://ailights.org/"><img id="sponsor_logo_ailights" class="sponsor_logo_img" alt="aiLights" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/410/highres/ailights.png" /></a>
+    <h5>Co-Initiators</h5>
+    <a target="_blank" title="Go to Artifact page" href="https://artifact.swiss/"><img id="sponsor_logo_artifact" class="sponsor_logo_img" alt="Artifact" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/411/highres/Artifact.png" /></a>
+    <a target="_blank" title="Go to Swiss Engineering page" href="https://www.swissengineering.ch/"><img id="sponsor_logo_swiss engineering" class="sponsor_logo_img" alt="Swiss Engineering" src="https://s3.amazonaws.com/challengepost/sponsors/logos/000/049/412/highres/SwissEngineering.png" /></a>
+
+  </article>
+
+
+    <div id="recaptcha-disclaimer">
+  <p>
+    This site is protected by reCAPTCHA and the Google
+    <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and
+    <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+  </p>
+</div>
+
+  </div>
+</div>
+
+
+  
+  <link rel="stylesheet" media="screen" href="https://assets.devpost.com/packs/css/hackathon_recommendation-0b547526.css" />
+
+
+
+
+
+                </section>
+          </section>
+
+          
+        </div>
+      </div>
+
+          <div id="hackathon-recommendations"></div>
+
+    </div>
+
+    
+  <footer id="devpost-footer">
+  <div class="row body">
+    <div class="small-6 large-3 columns with-bottom-margin">
+      <nav>
+        <h4>Devpost</h4>
+        <ul>
+          <li><a href="https://info.devpost.com/about">About</a></li>
+          <li><a href="https://info.devpost.com/careers">Careers</a></li>
+          <li><a href="https://info.devpost.com/contact">Contact</a></li>
+          <li><a href="https://help.devpost.com/">Help</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="small-6 large-3 columns with-bottom-margin">
+      <nav>
+        <h4>Hackathons</h4>
+        <ul>
+          <li><a href="https://devpost.com/hackathons">Browse hackathons</a></li>
+          <li><a href="https://devpost.com/software">Explore projects</a></li>
+          <li><a href="https://info.devpost.com">Host a hackathon</a></li>
+          <li><a href="https://info.devpost.com/guides">Hackathon guides</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="small-6 large-3 columns">
+      <nav>
+        <h4>Portfolio</h4>
+        <ul>
+          <li><a href="https://devpost.com/portfolio/redirect?page=projects">Your projects</a></li>
+          <li><a href="https://devpost.com/portfolio/redirect?page=hackathons">Your hackathons</a></li>
+          <li><a href="https://devpost.com/settings">Settings</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="small-6 large-3 columns">
+      <nav>
+        <h4>Connect</h4>
+        <ul class="social-links">
+          <li>
+            <a href="https://twitter.com/devpost">
+              <div class="icon">
+                <i class="fab fa-twitter"></i>
+              </div>
+
+              <span>
+                Twitter
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://discord.com/invite/HP4BhW3hnp">
+              <div class="icon">
+                <i class="fab fa-discord"></i>
+              </div>
+
+              <span>
+                Discord
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/devposthacks" target="_blank">
+              <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <span>
+                Facebook
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/devpost/" target="_blank">
+              <div class="icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <span>
+                LinkedIn
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+
+  <div class="legal-bar-container">
+    <nav class="row">
+      <div class="columns">
+        <div class="legal-bar">
+          <div class="copyright-notice">&#169; 2026 Devpost, Inc. All rights reserved.</div>
+
+          <ul>
+            <li><a href="https://info.devpost.com/legal/community-guidelines">Community guidelines</a></li>
+            <li><a href="https://info.devpost.com/legal/security">Security</a></li>
+            <li><a href="https://info.devpost.com/legal/california-consumer-privacy-act">CA notice</a></li>
+            <li><a href="https://info.devpost.com/legal/privacy-policy">Privacy policy</a></li>
+            <li><a href="https://info.devpost.com/legal/terms-of-service">Terms of service</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+</footer>
+
+
+
+    
+    
+
+    
+
+
+
+      
+
+  
+
+
+    
+
+    
+
+
+
+
+    
+
+    
+
+    
+</body></html>
