@@ -21,6 +21,9 @@ npm test        # detector tests against saved Devpost rules pages
 
 - `public/` is a plain HTML/CSS/JS page (no build step). Ticks are saved in your browser's localStorage.
 - `api/scan.js` fetches the hackathon's overview and `/rules` pages; `lib/detectors.js` runs small pattern detectors over the rules text. Every item must carry the verbatim sentence it came from, so nothing is invented.
+- The deadline comes from the exact instant Devpost publishes on the page (`data-iso-date` / JSON-LD `endDate`), with the organiser's wording kept alongside.
+- Short community rules pages are read too (age, team size, excluded countries, video length), plus the overview's requirements box. When a rules page is short, Fine Print says so and never shows "Ready to submit".
+- Tested on all 40 open Devpost hackathons (13 Oct 2026): deadlines found on 40/40, at least one quoted rule on 29/40.
 - `api/repo.js` asks GitHub's public API whether the repo is public, which licence it has, and whether the required files exist. Set an optional `GITHUB_TOKEN` env var to raise GitHub's rate limit.
 - Deploys as-is to Vercel (`public/` static + `api/` functions).
 
