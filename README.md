@@ -6,7 +6,7 @@
 
 **Live:** https://fine-print-mu.vercel.app
 
-<!--VIDEO-->**Demo video (2:42):** https://youtu.be/vXlBjMQeYwA<!--/VIDEO-->
+<!--VIDEO-->**Demo video (2:42):** https://youtu.be/DMcTc1cSr1w<!--/VIDEO-->
 
 Paste a Devpost hackathon link. Fine Print reads the official rules and gives you every requirement that can get you disqualified as a checklist, each item with a **receipt**: the exact sentence from the rules, highlighted. It shows the deadline in your own time zone with a countdown and a calendar file, flags judging criteria that only appear in the official rules, and checks your GitHub repo (public? licence? required files?) so the repo rules tick themselves.
 
