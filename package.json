@@ -1,0 +1,13 @@
+{
+  "name": "fine-print",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read the fine print before it reads you: Devpost hackathon rules as a disqualifier checklist with receipts.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node dev-server.js",
+    "test": "node --test test/*.test.js"
+  }
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fine Print · read the hackathon rules before they read you</title>
+  <meta name="description" content="Paste a Devpost hackathon link. Get every rule that can disqualify you as a checklist, each with the exact sentence it came from, and the deadline in your time zone.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/fraunces-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="sheet">
+    <header class="masthead">
+      <a class="brand" href="/" aria-label="Fine Print home">Fine Print<span class="asterisk">*</span></a>
+      <span class="tag">for hackathon entrants</span>
+    </header>
+
+    <section id="start" class="hero">
+      <h1>Read the fine print<br><em>before it reads you.</em></h1>
+      <p class="lede">Paste a Devpost hackathon link. Get every rule that can disqualify you as a checklist, each with the sentence it came from, plus the deadline in your own time zone.</p>
+    </section>
+
+    <form id="scan-form" class="urlbar" autocomplete="off">
+      <label for="url" class="sr-only">Devpost hackathon link</label>
+      <input id="url" name="url" type="text" inputmode="url" placeholder="https://your-hackathon.devpost.com" required>
+      <button id="scan-btn" type="submit">Read the rules</button>
+    </form>
+    <div id="examples" class="examples">
+      <span>Try:</span>
+      <button type="button" data-url="https://learn-ai-basics.devpost.com/">Build With AI: Basics</button>
+      <button type="button" data-url="https://gitlab-transcend.devpost.com/">GitLab Transcend</button>
+      <button type="button" data-url="https://qloo.devpost.com/">Qloo Agentic</button>
+    </div>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+
+    <section id="results" class="results" hidden>
+      <div class="titlebar">
+        <h2 id="h-title"></h2>
+        <a id="h-rules" class="quiet-link" target="_blank" rel="noopener">Official rules ↗</a>
+      </div>
+
+      <article id="deadline" class="card deadline"></article>
+
+      <article class="card">
+        <div class="card-head">
+          <h3>Disqualifier checklist</h3>
+          <p id="progress" class="progress"></p>
+        </div>
+        <div class="meter"><span id="meter-fill"></span></div>
+        <ol id="items" class="items"></ol>
+        <p id="ready" class="ready" hidden></p>
+      </article>
+
+      <article id="repo-card" class="card repo" hidden>
+        <div class="card-head">
+          <h3>Check my repo</h3>
+          <p class="hint">Fine Print reads your public GitHub repo and ticks the repo rules for you.</p>
+        </div>
+        <form id="repo-form" class="urlbar small" autocomplete="off">
+          <label for="repo" class="sr-only">GitHub repository</label>
+          <input id="repo" name="repo" type="text" placeholder="owner/repo or https://github.com/owner/repo" required>
+          <button type="submit">Check repo</button>
+        </form>
+        <ul id="repo-out" class="repo-out"></ul>
+      </article>
+
+      <article id="judging-card" class="card" hidden>
+        <div class="card-head"><h3>How you'll be judged</h3></div>
+        <ul id="judging" class="judging"></ul>
+      </article>
+    </section>
+
+    <footer class="foot">
+      <p>Fine Print quotes the official rules word for word but isn't legal advice. Always read the rules yourself.</p>
+      <p><a href="https://github.com/OlsOls4/fine-print" target="_blank" rel="noopener">Source on GitHub</a> · MIT licence</p>
+    </footer>
+  </main>
+  <script src="ics.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
