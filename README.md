@@ -2,6 +2,12 @@
 
 **Read the hackathon rules before they read you.**
 
+[![Fine Print: a Devpost rule shown as a checklist item, with the exact sentence from the official rules highlighted](docs/screenshot.png)](https://fine-print-mu.vercel.app)
+
+**Live:** https://fine-print-mu.vercel.app
+
+<!--VIDEO-->**Demo video (2:42):** https://youtu.be/vXlBjMQeYwA<!--/VIDEO-->
+
 Paste a Devpost hackathon link. Fine Print reads the official rules and gives you every requirement that can get you disqualified as a checklist, each item with a **receipt**: the exact sentence from the rules, highlighted. It shows the deadline in your own time zone with a countdown and a calendar file, flags judging criteria that only appear in the official rules, and checks your GitHub repo (public? licence? required files?) so the repo rules tick themselves.
 
 Built for the Devpost [Build With AI: Basics](https://learn-ai-basics.devpost.com/) hackathon using the Devpost Learn Skill Pack. Planning documents: [`devpost/scope.md`](devpost/scope.md), [`devpost/prd.md`](devpost/prd.md), [`devpost/spec.md`](devpost/spec.md), build log in [`devpost/checklist.md`](devpost/checklist.md).
@@ -31,6 +37,8 @@ Fine Print isn't legal advice. Always read the official rules yourself.
 
 ## Credits
 
-Fonts: Fraunces, Inter and JetBrains Mono (SIL Open Font Licence), self-hosted via Fontsource. Built with an AI coding agent following the Devpost Learn Skill Pack (`.agents/skills/`).
+Built with Hark (an AI agent) and the Devpost Learn Skill Pack (`.agents/skills/`). Product decisions by Olly McBride.
+
+Fonts: Fraunces, Inter and JetBrains Mono (SIL Open Font Licence), self-hosted via Fontsource.
 
 MIT licence.

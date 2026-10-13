@@ -16,7 +16,7 @@ Build mode: fast (learner asked the agent to drive: "Proceed to completion")
   Spec ref: `spec.md > Scan reader`, `spec.md > Start and results page`, `spec.md > File Structure`
   Build: Scaffold package.json, dev-server.js, public/, api/scan.js, lib/text.js, lib/deadline.js, lib/detectors.js; fixtures for 3 hackathons; node:test detector tests.
   Verify (mechanical): `npm test` passes on 3 fixtures; `curl /api/scan?url=https://learn-ai-basics.devpost.com/rules` returns deadline 2026-10-26T21:00:00Z and the expected items.
-  Learner check: Paste the Build With AI: Basics link and confirm the deadline reads 22:00 UK time and the 3-minute-video item quotes the rules.
+  Learner check: Paste the Build With AI: Basics link and confirm the deadline reads 21:00 UK time (GMT: UK clocks go back on 25 Oct, while 5pm EDT still applies in New York) and the 3-minute-video item quotes the rules.
   Commit: `Read Devpost rules into a receipts checklist with local deadline`
 
 - [x] **2. Ticks persist, progress line, calendar file, judging criteria**
