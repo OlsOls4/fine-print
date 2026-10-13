@@ -8,7 +8,7 @@ Built for the Devpost [Build With AI: Basics](https://learn-ai-basics.devpost.co
 
 ## Try it
 
-Live: see the link in the repo's About section.
+Live: **https://fine-print-mu.vercel.app**
 
 Locally (Node 20+, no dependencies):
 
