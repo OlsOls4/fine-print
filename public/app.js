@@ -77,7 +77,7 @@
       <span class="label">Submission deadline · your time (${esc(zone.replace(/_/g, ' '))})</span>
       <div><div class="local">${esc(local)}</div><div class="orig">Organiser's time: ${esc(data.deadline.original)}</div></div>
       <div class="count" id="count"></div>
-      <button type="button" class="cal" id="cal">＋ Add to calendar</button>`;
+      <button type="button" class="cal" id="cal">+ Add to calendar</button>`;
     const paint = () => {
       const ms = d - Date.now();
       const c = $('count');
